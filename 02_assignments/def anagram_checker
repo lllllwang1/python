@@ -1,0 +1,13 @@
+def anagram_checker(word_a, word_b):
+  # Your code here
+  word_a = word_a.lower()
+  word_b = word_b.lower()
+  if (sorted(word_a)== sorted(word_b)):
+    print ("Ture")
+  else:
+    print("False")
+
+
+# Run your code to check using the words below:
+anagram_checker("Silent", "listen")
+
